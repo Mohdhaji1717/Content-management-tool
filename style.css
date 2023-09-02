@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  padding-left: 0px;
+  
+
+}
+
+.container {
+  max-width: 1500px;
+  margin: 20px auto;
+  border: 1px solid #350000;
+  background-color: #530ed1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  border-radius: 30px;
+}
+
+.header {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #f0a416;
+  color: #000000;
+width:100%;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 55px;
+width:100%;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.toolbar button {
+  background-color: #f70707;
+  color: #b1f003;
+  border: none;
+  padding: 20px 25px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.4s;
+  border-radius: 5px;
+}
+
+.toolbar button:hover {
+  background-color: #f89603;
+}
+
+.content {
+  min-height: 600px;
+  border: 1px dashed #ccc;
+  background-color: #f9f9f9;
+  padding: 20px;
+   border-radius: 40px;
+}
+
+.content p {
+  margin: 0;
+  padding: 5px 0;
+  line-height: 1.6;
+}
+
+.content img,
+.content video {
+  max-width: 100%;
+  display: block;
+  margin: 10px auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.new-blog {
+  margin-top: 25px;
+  padding: 25px;
+  background-color: #f9f9f9;
+  border: 1px dashed #ccc;
+  border-radius: 40px;
+}
+
+.new-blog h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.new-blog .content {
+  min-height: 300px;
+  border: 1px dashed #ccc;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 20px;
+}
+.blog-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 55px;
+    color: #08ec1b;
+    text-shadow: 2px 2px 4px rgba(241, 20, 20, 0.2);
+    margin: 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(48, 2, 2, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 95%;
+  }
+}
